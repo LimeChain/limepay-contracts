@@ -1,0 +1,10 @@
+node_modules
+build
+bin
+.DS_Store
+.idea/
+.vscode
+config.json
+.etherlime-store/
+coveragre
+coverage.json
