@@ -32,4 +32,18 @@ In order to make the creation of such contracts as cheap as possible, a pattern 
 ## About this repo
 This repo contains the smart contracts, deployment script for the master smart contract and >90% code coverage unit tests (aiming to go to 100%);
 
+`Etherlime` is the development framework of this repo. In order to run the tests or deployment scripts first install etherlime globaly:
+
+`npm i -g etherlime`
+
+### Tests
+`etherlime test`
+
+### Coverage
+`etherlime coverage --runs=999`
+
+### Deploying
+1. `etherlime ganache`
+2. `etherlime deploy`
+
 
